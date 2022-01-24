@@ -1,0 +1,212 @@
+@charset "UTF-8";
+*{
+	font-family: 'Single Day', cursive;
+	 text-decoration: none;
+	 
+	}
+html {
+    line-height: 1.15;
+    background:  url(im/bg3.png) no-repeat center center fixed;
+	/*  linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), */
+	background-size: cover;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+nav {
+    display: block;
+}
+
+body {
+    margin: 0;
+    /* font-size: 1rem; */
+    font-weight: 400;
+    /* line-height: 1.5; */
+    color: #212529;
+    text-align: left;
+    
+/*     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+    box-sizing: border-box; */
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+
+.navbar {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 0rem .5rem 1rem;
+}
+
+.navbar-expand {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.navbar-expand>.container {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.navbar-expand .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem
+}
+
+.navbar-expand>.container {
+    flex-wrap: nowrap
+}
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color: #fff
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(107, 66, 3, .5)
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(107, 66, 3, .75)
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+    color: rgba(107, 66, 3, .75)
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto
+}
+.navbar>.container {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between
+}
+.navbar-expand>.container {
+    padding-right: 0;
+    padding-left: 0
+}
+.navbar-expand>.container {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 0rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+    text-decoration: none;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-expand .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+}
+
+.nav-link.disabled {
+    color: #6c757d;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 20px;
+   	
+}
+
+.nav-link:hover{
+    transform: translateY(-10px);
+    text-shadow: 8px 8px 8px rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.logo-size{
+	margin-left:30px;
+	 width: 140px;
+	 height: 100px;
+}
+.logo-size:hover{
+	transform: translateY(10px);
+}
+.nav-link-right{
+	margin-right:100px;
+}

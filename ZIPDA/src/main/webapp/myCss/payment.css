@@ -1,0 +1,58 @@
+@charset "UTF-8";
+ul{
+    padding-left:0;
+    margin: 0;
+    list-style: none; 
+}
+body{
+    font-size: 13pt;
+    min-width: 1480px;
+    width: 100%;
+}
+
+#frame{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 50px;
+    background-color: #fff;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px
+		rgba(0, 0, 0, 0.22);
+}
+
+#frame2{
+    border-bottom: 1px solid #e0e0eb;
+    padding-bottom: 10px;
+}
+
+.home{
+    float: right;
+}
+
+/* 주문·결제 상품 */
+table.bd{
+    clear: both;
+    border: 1px solid #e0e0eb;
+    border-collapse: collapse;
+    background-color: #f5f5f0;
+    width: 100%;
+    font-size: 10pt;
+}
+
+table.bd th{
+    border: 1px solid #e0e0eb;
+    padding: 10px 0;
+    text-align: center;
+    font-size:18px;
+}
+
+table.bd td{
+    border: 1px solid #e0e0eb;
+    text-align: center;
+    font-size:18px;
+}
+
+.info{
+    font-size: 10pt;
+    color: gray;
+    border-bottom: 1px solid #e0e0eb;
+}

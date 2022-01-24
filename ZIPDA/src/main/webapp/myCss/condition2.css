@@ -1,0 +1,135 @@
+@charset "UTF-8";
+#inbu{
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    font-size:14px;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    transition : 0.2s;
+}
+
+.surf{
+    width:100px;
+    margin:auto;
+}
+#inbu2{
+  background-color: rgba(0,0,0,0.1);
+  width:100px;
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    font-size:14px;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    transition : 0.2s;
+}
+
+.search {
+    margin : 20px;
+    position : relative;
+    display: flex;
+}
+
+/* .search form{
+    display: flex;
+} */
+.search .search-icon {
+    opacity: 1;
+}
+
+.search .search-field{
+    width : 100%;
+}
+
+.search .search-field:focus {
+    flex-shrink:1;
+}
+
+.search .search-btn{
+    flex-shrink: 0;
+    margin-left:10px;
+    opacity: 0;
+    transition : 0.3s;
+}
+.search .search-field:focus ~ .search-btn{
+    opacity: 1;
+}
+
+.search .search-icon{
+    position: absolute;
+    left:12px;
+    top:12px;
+    opacity:0.3;
+}
+
+
+/* 기본 라디오 디자인 숨김 */
+.radio {
+    display: none;
+  }
+
+  /* 텍스트 위치 조정을 위한 wrapper */
+  .wrap {
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    display: inline-block;
+    margin : 20px;
+    padding : 20px;
+    width:100%;
+  }
+
+#title{
+    font-weight: bold;
+    opacity: 0.5;
+    margin-top : -35px;
+    display:flex;
+    position: absolute;
+    font-size:20px;
+}
+
+.d_radio input[type="radio"] {
+    display: none;
+}
+
+.d_radio input[type="radio"] + span {
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 2%;
+    border: 1px solid #dfdfdf;
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
+    cursor: pointer;
+    font-size : 15px;
+}
+
+.d_radio input[type="radio"]:checked + span {
+    background-color: #c992bb;
+    color: #ffffff;
+}
+
+
+.d_checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.d_checkbox input[type="checkbox"] + span {
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 8px;
+    border: 1px solid #dfdfdf;
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
+    cursor: pointer;
+    font-size : 15px;
+}
+
+.d_checkbox input[type="checkbox"]:checked + span {
+    background-color: #c992bb;
+    color: #ffffff;
+}
